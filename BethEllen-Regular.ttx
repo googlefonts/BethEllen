@@ -136,7 +136,7 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="1.0"/>
+    <fontRevision value="1.016"/>
     <checkSumAdjustment value="0x6a8226f"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00001011"/>
@@ -16894,13 +16894,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      1.015;BethEllenRegular
+      1.016;BethEllenRegular
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Beth Ellen
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 1.015;Fontself Maker 2.1.2
+      Version 1.016;Fontself Maker 2.1.2
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
       BethEllenRegular
@@ -16930,13 +16930,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.015;BethEllenRegular
+      1.016;BethEllenRegular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Beth Ellen
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.015;Fontself Maker 2.1.2
+      Version 1.016;Fontself Maker 2.1.2
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       BethEllenRegular
