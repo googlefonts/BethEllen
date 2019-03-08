@@ -17011,14 +17011,6 @@
     <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="2"/>
   </gasp>
 
-  <FFTM>
-    <!-- FontForge's timestamp, font source creation and modification dates -->
-    <version value="1"/>
-    <FFTimeStamp value="Sun Oct 14 13:45:12 2018"/>
-    <sourceCreated value="Thu Mar  1 01:50:57 2018"/>
-    <sourceModified value="Thu Mar  1 01:50:57 2018"/>
-  </FFTM>
-
   <GDEF>
     <Version value="0x00010000"/>
     <GlyphClassDef Format="2">
