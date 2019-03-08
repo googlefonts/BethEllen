@@ -138,12 +138,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.016"/>
-    <checkSumAdjustment value="0xc7989499"/>
+    <checkSumAdjustment value="0x17ebf172"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00001001"/>
     <unitsPerEm value="1000"/>
     <created value="Thu Mar  1 01:50:57 2018"/>
-    <modified value="Fri Mar  8 01:21:36 2019"/>
+    <modified value="Fri Mar  8 01:30:27 2019"/>
     <xMin value="-274"/>
     <yMin value="-371"/>
     <xMax value="1098"/>
@@ -236,8 +236,8 @@
     <sTypoAscender value="1625"/>
     <sTypoDescender value="-615"/>
     <sTypoLineGap value="0"/>
-    <usWinAscent value="969"/>
-    <usWinDescent value="368"/>
+    <usWinAscent value="985"/>
+    <usWinDescent value="371"/>
     <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
     <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
     <sxHeight value="389"/>
