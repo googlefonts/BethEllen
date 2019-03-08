@@ -16894,16 +16894,16 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      1.016;BethEllenRegular
+      1.016;Beth Ellen
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Beth Ellen
+      Beth Ellen Regular
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
       Version 1.016;Fontself Maker 2.1.2
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      BethEllenRegular
+      BethEllen-Regular
     </namerecord>
     <namerecord nameID="12" platformID="1" platEncID="0" langID="0x0" unicode="True">
       info@robjelinskistudios.com
@@ -16913,12 +16913,6 @@
     </namerecord>
     <namerecord nameID="14" platformID="1" platEncID="0" langID="0x0" unicode="True">
       http://scripts.sil.org/OFL
-    </namerecord>
-    <namerecord nameID="16" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Beth Ellen
-    </namerecord>
-    <namerecord nameID="17" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Regular
     </namerecord>
     <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
       Copyright 2018 The Beth Ellen Project Authors (https://github.com/felipesanches/BethEllen)
@@ -16930,16 +16924,16 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.016;BethEllenRegular
+      1.016;Beth Ellen
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
-      Beth Ellen
+      Beth Ellen Regular
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
       Version 1.016;Fontself Maker 2.1.2
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
-      BethEllenRegular
+      BethEllen-Regular
     </namerecord>
     <namerecord nameID="12" platformID="3" platEncID="1" langID="0x409">
       info@robjelinskistudios.com
@@ -16949,12 +16943,6 @@
     </namerecord>
     <namerecord nameID="14" platformID="3" platEncID="1" langID="0x409">
       http://scripts.sil.org/OFL
-    </namerecord>
-    <namerecord nameID="16" platformID="3" platEncID="1" langID="0x409">
-      Beth Ellen
-    </namerecord>
-    <namerecord nameID="17" platformID="3" platEncID="1" langID="0x409">
-      Regular
     </namerecord>
   </name>
 
