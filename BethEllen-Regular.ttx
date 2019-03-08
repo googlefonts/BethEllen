@@ -137,12 +137,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.016"/>
-    <checkSumAdjustment value="0xeb7ee4ce"/>
+    <checkSumAdjustment value="0xa728d8f5"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00001001"/>
     <unitsPerEm value="1000"/>
     <created value="Thu Mar  1 01:50:57 2018"/>
-    <modified value="Fri Mar  8 00:28:54 2019"/>
+    <modified value="Fri Mar  8 00:39:48 2019"/>
     <xMin value="-275"/>
     <yMin value="-371"/>
     <xMax value="1099"/>
@@ -17258,5 +17258,10 @@
       </Lookup>
     </LookupList>
   </GSUB>
+
+  <DSIG>
+    <!-- note that the Digital Signature will be invalid after recompilation! -->
+    <tableHeader flag="0x0" numSigs="0" version="1"/>
+  </DSIG>
 
 </ttFont>
