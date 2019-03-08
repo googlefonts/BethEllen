@@ -137,15 +137,15 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.016"/>
-    <checkSumAdjustment value="0x6a8226f"/>
+    <checkSumAdjustment value="0xeb7ee4ce"/>
     <magicNumber value="0x5f0f3cf5"/>
-    <flags value="00000000 00001011"/>
+    <flags value="00000000 00001001"/>
     <unitsPerEm value="1000"/>
     <created value="Thu Mar  1 01:50:57 2018"/>
-    <modified value="Thu Mar  1 01:50:57 2018"/>
+    <modified value="Fri Mar  8 00:28:54 2019"/>
     <xMin value="-275"/>
     <yMin value="-371"/>
-    <xMax value="1100"/>
+    <xMax value="1099"/>
     <yMax value="985"/>
     <macStyle value="00000000 00000000"/>
     <lowestRecPPEM value="8"/>
@@ -160,9 +160,9 @@
     <descent value="-615"/>
     <lineGap value="0"/>
     <advanceWidthMax value="1097"/>
-    <minLeftSideBearing value="-275"/>
-    <minRightSideBearing value="-243"/>
-    <xMaxExtent value="1100"/>
+    <minLeftSideBearing value="-274"/>
+    <minRightSideBearing value="-248"/>
+    <xMaxExtent value="1098"/>
     <caretSlopeRise value="1"/>
     <caretSlopeRun value="0"/>
     <caretOffset value="0"/>
@@ -909,6 +909,17 @@
     </cmap_format_4>
   </cmap>
 
+  <prep>
+    <assembly>
+      PUSHW[ ]	/* 1 value pushed */
+      511
+      SCANCTRL[ ]	/* ScanConversionControl */
+      PUSHB[ ]	/* 1 value pushed */
+      4
+      SCANTYPE[ ]	/* ScanType */
+    </assembly>
+  </prep>
+
   <loca>
     <!-- The 'loca' table will be calculated by the compiler -->
   </loca>
@@ -922,7 +933,7 @@
 
     <TTGlyph name=".null"/><!-- contains no outline data -->
 
-    <TTGlyph name="A" xMin="33" yMin="-53" xMax="734" yMax="747">
+    <TTGlyph name="A" xMin="34" yMin="-52" xMax="734" yMax="746">
       <contour>
         <pt x="690" y="104" on="1"/>
         <pt x="707" y="118" on="0"/>
@@ -1055,7 +1066,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="B" xMin="33" yMin="-39" xMax="761" yMax="787">
+    <TTGlyph name="B" xMin="34" yMin="-39" xMax="761" yMax="786">
       <contour>
         <pt x="313" y="720" on="1"/>
         <pt x="338" y="739" on="0"/>
@@ -1180,7 +1191,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="C" xMin="63" yMin="-69" xMax="681" yMax="754">
+    <TTGlyph name="C" xMin="63" yMin="-69" xMax="681" yMax="753">
       <contour>
         <pt x="391" y="698" on="1"/>
         <pt x="426" y="722" on="0"/>
@@ -1269,7 +1280,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="D" xMin="41" yMin="-40" xMax="833" yMax="822">
+    <TTGlyph name="D" xMin="42" yMin="-40" xMax="832" yMax="821">
       <contour>
         <pt x="278" y="652" on="0"/>
         <pt x="307" y="689" on="0"/>
@@ -1436,7 +1447,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="E" xMin="33" yMin="-49" xMax="584" yMax="836">
+    <TTGlyph name="E" xMin="34" yMin="-48" xMax="583" yMax="836">
       <contour>
         <pt x="562" y="692" on="0"/>
         <pt x="583" y="658" on="0"/>
@@ -1542,7 +1553,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="F" xMin="32" yMin="-50" xMax="986" yMax="811">
+    <TTGlyph name="F" xMin="33" yMin="-49" xMax="986" yMax="811">
       <contour>
         <pt x="264" y="735" on="0"/>
         <pt x="328" y="793" on="0"/>
@@ -1719,7 +1730,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="G" xMin="30" yMin="-66" xMax="945" yMax="780">
+    <TTGlyph name="G" xMin="30" yMin="-65" xMax="944" yMax="779">
       <contour>
         <pt x="899" y="145" on="1"/>
         <pt x="917" y="160" on="0"/>
@@ -1878,7 +1889,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="H" xMin="29" yMin="-95" xMax="850" yMax="726">
+    <TTGlyph name="H" xMin="30" yMin="-95" xMax="850" yMax="725">
       <contour>
         <pt x="383" y="679" on="1"/>
         <pt x="403" y="616" on="0"/>
@@ -2063,7 +2074,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="I" xMin="32" yMin="-86" xMax="796" yMax="769">
+    <TTGlyph name="I" xMin="32" yMin="-85" xMax="796" yMax="768">
       <contour>
         <pt x="385" y="650" on="0"/>
         <pt x="454" y="737" on="0"/>
@@ -2222,7 +2233,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="J" xMin="-137" yMin="-283" xMax="733" yMax="806">
+    <TTGlyph name="J" xMin="-136" yMin="-283" xMax="733" yMax="806">
       <contour>
         <pt x="690" y="131" on="1"/>
         <pt x="707" y="145" on="0"/>
@@ -2367,7 +2378,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="K" xMin="33" yMin="-75" xMax="733" yMax="800">
+    <TTGlyph name="K" xMin="34" yMin="-75" xMax="733" yMax="800">
       <contour>
         <pt x="691" y="96" on="1"/>
         <pt x="707" y="109" on="0"/>
@@ -2522,7 +2533,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="L" xMin="33" yMin="-18" xMax="803" yMax="794">
+    <TTGlyph name="L" xMin="34" yMin="-17" xMax="803" yMax="793">
       <contour>
         <pt x="753" y="151" on="1"/>
         <pt x="754" y="151" on="0"/>
@@ -2651,7 +2662,7 @@
 
     <TTGlyph name="LF"/><!-- contains no outline data -->
 
-    <TTGlyph name="M" xMin="33" yMin="17" xMax="972" yMax="805">
+    <TTGlyph name="M" xMin="34" yMin="18" xMax="971" yMax="804">
       <contour>
         <pt x="168" y="756" on="1"/>
         <pt x="218" y="785" on="0"/>
@@ -2779,7 +2790,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="N" xMin="33" yMin="-10" xMax="1000" yMax="788">
+    <TTGlyph name="N" xMin="34" yMin="-9" xMax="999" yMax="788">
       <contour>
         <pt x="951" y="168" on="1"/>
         <pt x="970" y="184" on="0"/>
@@ -2889,7 +2900,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="O" xMin="29" yMin="-222" xMax="715" yMax="750">
+    <TTGlyph name="O" xMin="30" yMin="-221" xMax="715" yMax="750">
       <contour>
         <pt x="393" y="697" on="0"/>
         <pt x="407" y="701" on="0"/>
@@ -2984,7 +2995,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="P" xMin="6" yMin="-42" xMax="788" yMax="728">
+    <TTGlyph name="P" xMin="7" yMin="-41" xMax="788" yMax="728">
       <contour>
         <pt x="271" y="449" on="1"/>
         <pt x="318" y="551" on="0"/>
@@ -3090,7 +3101,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="Q" xMin="33" yMin="-29" xMax="697" yMax="736">
+    <TTGlyph name="Q" xMin="34" yMin="-29" xMax="697" yMax="736">
       <contour>
         <pt x="694" y="101" on="1"/>
         <pt x="691" y="78" on="0"/>
@@ -3220,7 +3231,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="R" xMin="33" yMin="0" xMax="844" yMax="756">
+    <TTGlyph name="R" xMin="34" yMin="0" xMax="844" yMax="756">
       <contour>
         <pt x="814" y="205" on="1"/>
         <pt x="844" y="214" on="0"/>
@@ -3355,7 +3366,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="S" xMin="25" yMin="-75" xMax="863" yMax="800">
+    <TTGlyph name="S" xMin="26" yMin="-74" xMax="862" yMax="799">
       <contour>
         <pt x="862" y="138" on="1"/>
         <pt x="862" y="115" on="0"/>
@@ -3474,7 +3485,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="T" xMin="33" yMin="-20" xMax="1056" yMax="722">
+    <TTGlyph name="T" xMin="34" yMin="-19" xMax="1055" yMax="721">
       <contour>
         <pt x="1026" y="692" on="1"/>
         <pt x="1055" y="664" on="0"/>
@@ -3597,7 +3608,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="U" xMin="32" yMin="-46" xMax="695" yMax="767">
+    <TTGlyph name="U" xMin="32" yMin="-46" xMax="695" yMax="766">
       <contour>
         <pt x="648" y="148" on="1"/>
         <pt x="667" y="163" on="0"/>
@@ -3759,7 +3770,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="V" xMin="65" yMin="-18" xMax="843" yMax="769">
+    <TTGlyph name="V" xMin="65" yMin="-17" xMax="842" yMax="769">
       <contour>
         <pt x="150" y="721" on="1"/>
         <pt x="178" y="735" on="0"/>
@@ -3839,7 +3850,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="W" xMin="35" yMin="-10" xMax="1100" yMax="789">
+    <TTGlyph name="W" xMin="36" yMin="-10" xMax="1099" yMax="788">
       <contour>
         <pt x="688" y="363" on="1"/>
         <pt x="716" y="399" on="0"/>
@@ -3978,7 +3989,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="X" xMin="99" yMin="-36" xMax="1026" yMax="750">
+    <TTGlyph name="X" xMin="100" yMin="-36" xMax="1026" yMax="750">
       <contour>
         <pt x="979" y="201" on="1"/>
         <pt x="998" y="217" on="0"/>
@@ -4073,7 +4084,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="Y" xMin="29" yMin="-285" xMax="662" yMax="769">
+    <TTGlyph name="Y" xMin="30" yMin="-285" xMax="662" yMax="768">
       <contour>
         <pt x="645" y="747" on="1"/>
         <pt x="661" y="734" on="0"/>
@@ -4358,7 +4369,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="a" xMin="2" yMin="-33" xMax="538" yMax="366">
+    <TTGlyph name="a" xMin="2" yMin="-33" xMax="538" yMax="365">
       <contour>
         <pt x="502" y="96" on="1"/>
         <pt x="516" y="108" on="0"/>
@@ -4455,7 +4466,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="ampersand" xMin="27" yMin="-68" xMax="611" yMax="697">
+    <TTGlyph name="ampersand" xMin="27" yMin="-68" xMax="610" yMax="696">
       <contour>
         <pt x="298" y="188" on="1"/>
         <pt x="301" y="184" on="0"/>
@@ -4561,7 +4572,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asciicircum" xMin="33" yMin="526" xMax="402" yMax="852">
+    <TTGlyph name="asciicircum" xMin="33" yMin="526" xMax="401" yMax="852">
       <contour>
         <pt x="333" y="571" on="1"/>
         <pt x="321" y="588" on="0"/>
@@ -4603,7 +4614,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asciitilde" xMin="33" yMin="364" xMax="491" yMax="549">
+    <TTGlyph name="asciitilde" xMin="34" yMin="364" xMax="490" yMax="548">
       <contour>
         <pt x="37" y="445" on="1"/>
         <pt x="50" y="455" on="0"/>
@@ -4718,7 +4729,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt1" xMin="25" yMin="144" xMax="460" yMax="566">
+    <TTGlyph name="asterisk.alt1" xMin="26" yMin="145" xMax="460" yMax="565">
       <contour>
         <pt x="99" y="495" on="1"/>
         <pt x="107" y="502" on="0"/>
@@ -4771,7 +4782,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt10" xMin="33" yMin="-7" xMax="931" yMax="713">
+    <TTGlyph name="asterisk.alt10" xMin="34" yMin="-7" xMax="930" yMax="713">
       <contour>
         <pt x="90" y="392" on="1"/>
         <pt x="77" y="380" on="1"/>
@@ -5585,7 +5596,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt11" xMin="33" yMin="0" xMax="880" yMax="790">
+    <TTGlyph name="asterisk.alt11" xMin="34" yMin="0" xMax="880" yMax="789">
       <contour>
         <pt x="491" y="78" on="1"/>
         <pt x="594" y="95" on="0"/>
@@ -6315,7 +6326,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt2" xMin="33" yMin="-12" xMax="795" yMax="492">
+    <TTGlyph name="asterisk.alt2" xMin="34" yMin="-12" xMax="795" yMax="491">
       <contour>
         <pt x="709" y="486" on="1"/>
         <pt x="745" y="491" on="0"/>
@@ -6420,7 +6431,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt3" xMin="27" yMin="-10" xMax="914" yMax="362">
+    <TTGlyph name="asterisk.alt3" xMin="28" yMin="-10" xMax="913" yMax="362">
       <contour>
         <pt x="783" y="120" on="1"/>
         <pt x="797" y="102" on="0"/>
@@ -6542,7 +6553,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt4" xMin="40" yMin="143" xMax="186" yMax="285">
+    <TTGlyph name="asterisk.alt4" xMin="40" yMin="143" xMax="186" yMax="284">
       <contour>
         <pt x="153" y="174" on="1"/>
         <pt x="143" y="158" on="0"/>
@@ -6564,7 +6575,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt5" xMin="33" yMin="-1" xMax="718" yMax="444">
+    <TTGlyph name="asterisk.alt5" xMin="34" yMin="0" xMax="717" yMax="444">
       <contour>
         <pt x="424" y="146" on="1"/>
         <pt x="380" y="156" on="0"/>
@@ -6758,7 +6769,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt6" xMin="29" yMin="-1" xMax="1064" yMax="807">
+    <TTGlyph name="asterisk.alt6" xMin="30" yMin="-1" xMax="1063" yMax="806">
       <contour>
         <pt x="1046" y="555" on="1"/>
         <pt x="1063" y="569" on="0"/>
@@ -7808,7 +7819,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt7" xMin="33" yMin="-1" xMax="942" yMax="816">
+    <TTGlyph name="asterisk.alt7" xMin="34" yMin="-1" xMax="941" yMax="816">
       <contour>
         <pt x="492" y="436" on="0"/>
         <pt x="483" y="419" on="0"/>
@@ -8730,7 +8741,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt8" xMin="33" yMin="0" xMax="373" yMax="704">
+    <TTGlyph name="asterisk.alt8" xMin="34" yMin="0" xMax="373" yMax="704">
       <contour>
         <pt x="48" y="568" on="1"/>
         <pt x="48" y="571" on="0"/>
@@ -9392,7 +9403,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="asterisk.alt9" xMin="33" yMin="0" xMax="882" yMax="793">
+    <TTGlyph name="asterisk.alt9" xMin="33" yMin="0" xMax="882" yMax="792">
       <contour>
         <pt x="545" y="142" on="1"/>
         <pt x="550" y="88" on="0"/>
@@ -9812,7 +9823,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="at" xMin="32" yMin="-210" xMax="805" yMax="623">
+    <TTGlyph name="at" xMin="32" yMin="-209" xMax="804" yMax="622">
       <contour>
         <pt x="343" y="544" on="1"/>
         <pt x="387" y="567" on="0"/>
@@ -9994,7 +10005,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="b" xMin="-39" yMin="-66" xMax="493" yMax="817">
+    <TTGlyph name="b" xMin="-38" yMin="-65" xMax="493" yMax="817">
       <contour>
         <pt x="492" y="152" on="1"/>
         <pt x="493" y="148" on="0"/>
@@ -10094,7 +10105,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="bar" xMin="31" yMin="0" xMax="77" yMax="679">
+    <TTGlyph name="bar" xMin="32" yMin="0" xMax="77" yMax="678">
       <contour>
         <pt x="58" y="0" on="1"/>
         <pt x="55" y="0" on="0"/>
@@ -10121,7 +10132,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="braceleft" xMin="33" yMin="-103" xMax="464" yMax="720">
+    <TTGlyph name="braceleft" xMin="33" yMin="-102" xMax="463" yMax="720">
       <contour>
         <pt x="316" y="-24" on="1"/>
         <pt x="317" y="-24" on="0"/>
@@ -10186,7 +10197,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="braceright" xMin="33" yMin="-156" xMax="432" yMax="699">
+    <TTGlyph name="braceright" xMin="34" yMin="-155" xMax="431" yMax="699">
       <contour>
         <pt x="172" y="629" on="1"/>
         <pt x="168" y="630" on="0"/>
@@ -10249,7 +10260,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="bracketleft" xMin="33" yMin="0" xMax="396" yMax="657">
+    <TTGlyph name="bracketleft" xMin="34" yMin="0" xMax="395" yMax="656">
       <contour>
         <pt x="258" y="24" on="1"/>
         <pt x="225" y="19" on="0"/>
@@ -10287,7 +10298,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="bracketright" xMin="32" yMin="-1" xMax="393" yMax="692">
+    <TTGlyph name="bracketright" xMin="32" yMin="-1" xMax="393" yMax="691">
       <contour>
         <pt x="97" y="0" on="1"/>
         <pt x="83" y="0" on="0"/>
@@ -10342,7 +10353,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="c" xMin="32" yMin="-51" xMax="466" yMax="424">
+    <TTGlyph name="c" xMin="33" yMin="-51" xMax="465" yMax="423">
       <contour>
         <pt x="422" y="96" on="1"/>
         <pt x="439" y="111" on="0"/>
@@ -10407,7 +10418,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="cent" xMin="23" yMin="-1" xMax="374" yMax="662">
+    <TTGlyph name="cent" xMin="24" yMin="0" xMax="373" yMax="661">
       <contour>
         <pt x="148" y="88" on="1"/>
         <pt x="146" y="83" on="0"/>
@@ -10483,7 +10494,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="colon" xMin="48" yMin="-26" xMax="195" yMax="391">
+    <TTGlyph name="colon" xMin="48" yMin="-25" xMax="194" yMax="391">
       <contour>
         <pt x="48" y="67" on="1"/>
         <pt x="48" y="94" on="0"/>
@@ -10524,7 +10535,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="comma" xMin="101" yMin="-120" xMax="280" yMax="153">
+    <TTGlyph name="comma" xMin="101" yMin="-119" xMax="280" yMax="152">
       <contour>
         <pt x="101" y="67" on="0"/>
         <pt x="108" y="98" on="0"/>
@@ -10550,7 +10561,7 @@
 
     <TTGlyph name="controlCR"/><!-- contains no outline data -->
 
-    <TTGlyph name="copyright" xMin="30" yMin="354" xMax="447" yMax="770">
+    <TTGlyph name="copyright" xMin="31" yMin="355" xMax="447" yMax="770">
       <contour>
         <pt x="190" y="474" on="1"/>
         <pt x="152" y="493" on="0"/>
@@ -10831,7 +10842,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="d" xMin="28" yMin="-11" xMax="653" yMax="809">
+    <TTGlyph name="d" xMin="28" yMin="-10" xMax="652" yMax="809">
       <contour>
         <pt x="609" y="120" on="1"/>
         <pt x="626" y="135" on="0"/>
@@ -10933,7 +10944,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="dagger" xMin="31" yMin="86" xMax="465" yMax="721">
+    <TTGlyph name="dagger" xMin="32" yMin="86" xMax="464" yMax="721">
       <contour>
         <pt x="196" y="153" on="1"/>
         <pt x="196" y="150" on="0"/>
@@ -10994,7 +11005,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="dollar" xMin="111" yMin="-105" xMax="641" yMax="985">
+    <TTGlyph name="dollar" xMin="111" yMin="-104" xMax="640" yMax="985">
       <contour>
         <pt x="463" y="667" on="1"/>
         <pt x="443" y="652" on="0"/>
@@ -11112,7 +11123,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="dollar.alt1" xMin="33" yMin="-6" xMax="534" yMax="567">
+    <TTGlyph name="dollar.alt1" xMin="34" yMin="-6" xMax="533" yMax="567">
       <contour>
         <pt x="503" y="464" on="1"/>
         <pt x="436" y="509" on="0"/>
@@ -11187,7 +11198,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="e" xMin="-15" yMin="-14" xMax="412" yMax="450">
+    <TTGlyph name="e" xMin="-15" yMin="-13" xMax="412" yMax="449">
       <contour>
         <pt x="369" y="120" on="1"/>
         <pt x="386" y="134" on="0"/>
@@ -11262,7 +11273,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="eight" xMin="30" yMin="-70" xMax="780" yMax="708">
+    <TTGlyph name="eight" xMin="30" yMin="-70" xMax="779" yMax="707">
       <contour>
         <pt x="634" y="654" on="1"/>
         <pt x="640" y="654" on="0"/>
@@ -11363,7 +11374,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="equal" xMin="57" yMin="80" xMax="456" yMax="271">
+    <TTGlyph name="equal" xMin="58" yMin="81" xMax="455" yMax="271">
       <contour>
         <pt x="423" y="146" on="1"/>
         <pt x="427" y="146" on="0"/>
@@ -11402,7 +11413,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="exclam" xMin="82" yMin="-78" xMax="480" yMax="749">
+    <TTGlyph name="exclam" xMin="83" yMin="-77" xMax="480" yMax="749">
       <contour>
         <pt x="114" y="-77" on="0"/>
         <pt x="83" y="-11" on="0"/>
@@ -11463,7 +11474,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="f" xMin="-127" yMin="-351" xMax="330" yMax="678">
+    <TTGlyph name="f" xMin="-126" yMin="-351" xMax="330" yMax="677">
       <contour>
         <pt x="330" y="107" on="1"/>
         <pt x="330" y="94" on="0"/>
@@ -11558,7 +11569,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="five" xMin="-61" yMin="-69" xMax="637" yMax="660">
+    <TTGlyph name="five" xMin="-61" yMin="-68" xMax="637" yMax="660">
       <contour>
         <pt x="432" y="586" on="0"/>
         <pt x="494" y="631" on="0"/>
@@ -11658,7 +11669,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="four" xMin="54" yMin="-4" xMax="491" yMax="694">
+    <TTGlyph name="four" xMin="55" yMin="-4" xMax="490" yMax="694">
       <contour>
         <pt x="376" y="647" on="1"/>
         <pt x="376" y="657" on="0"/>
@@ -11880,7 +11891,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="greater" xMin="33" yMin="0" xMax="385" yMax="406">
+    <TTGlyph name="greater" xMin="34" yMin="0" xMax="384" yMax="406">
       <contour>
         <pt x="34" y="59" on="1"/>
         <pt x="62" y="90" on="0"/>
@@ -11909,7 +11920,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="h" xMin="-51" yMin="-26" xMax="546" yMax="786">
+    <TTGlyph name="h" xMin="-51" yMin="-25" xMax="546" yMax="785">
       <contour>
         <pt x="503" y="120" on="1"/>
         <pt x="520" y="135" on="0"/>
@@ -12057,7 +12068,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="hyphen" xMin="33" yMin="-1" xMax="418" yMax="66">
+    <TTGlyph name="hyphen" xMin="34" yMin="0" xMax="417" yMax="66">
       <contour>
         <pt x="96" y="11" on="1"/>
         <pt x="72" y="12" on="0"/>
@@ -12085,7 +12096,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="i" xMin="-41" yMin="-30" xMax="333" yMax="537">
+    <TTGlyph name="i" xMin="-41" yMin="-29" xMax="333" yMax="536">
       <contour>
         <pt x="187" y="476" on="1"/>
         <pt x="165" y="470" on="0"/>
@@ -12250,7 +12261,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="j.alt1" xMin="33" yMin="-307" xMax="555" yMax="701">
+    <TTGlyph name="j.alt1" xMin="34" yMin="-306" xMax="554" yMax="700">
       <contour>
         <pt x="488" y="643" on="0"/>
         <pt x="435" y="684" on="0"/>
@@ -12373,7 +12384,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="k" xMin="32" yMin="-8" xMax="596" yMax="737">
+    <TTGlyph name="k" xMin="33" yMin="-8" xMax="596" yMax="737">
       <contour>
         <pt x="595" y="107" on="1"/>
         <pt x="594" y="94" on="0"/>
@@ -12467,7 +12478,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="k.alt1" xMin="31" yMin="-73" xMax="809" yMax="713">
+    <TTGlyph name="k.alt1" xMin="31" yMin="-72" xMax="808" yMax="712">
       <contour>
         <pt x="808" y="82" on="1"/>
         <pt x="806" y="70" on="0"/>
@@ -12567,7 +12578,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="k.alt2" xMin="31" yMin="-48" xMax="809" yMax="737">
+    <TTGlyph name="k.alt2" xMin="31" yMin="-48" xMax="808" yMax="737">
       <contour>
         <pt x="808" y="107" on="1"/>
         <pt x="806" y="94" on="0"/>
@@ -12670,7 +12681,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="l" xMin="33" yMin="-6" xMax="377" yMax="770">
+    <TTGlyph name="l" xMin="34" yMin="-5" xMax="377" yMax="769">
       <contour>
         <pt x="164" y="263" on="1"/>
         <pt x="138" y="232" on="0"/>
@@ -12783,7 +12794,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="l.alt1" xMin="-61" yMin="-22" xMax="562" yMax="776">
+    <TTGlyph name="l.alt1" xMin="-60" yMin="-22" xMax="561" yMax="776">
       <contour>
         <pt x="308" y="263" on="1"/>
         <pt x="283" y="232" on="0"/>
@@ -12911,7 +12922,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="less" xMin="31" yMin="-2" xMax="388" yMax="359">
+    <TTGlyph name="less" xMin="32" yMin="-2" xMax="388" yMax="358">
       <contour>
         <pt x="289" y="295" on="1"/>
         <pt x="275" y="279" on="0"/>
@@ -12947,7 +12958,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="m" xMin="-36" yMin="-40" xMax="738" yMax="343">
+    <TTGlyph name="m" xMin="-35" yMin="-39" xMax="737" yMax="342">
       <contour>
         <pt x="694" y="119" on="1"/>
         <pt x="711" y="133" on="0"/>
@@ -13135,7 +13146,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="nine" xMin="29" yMin="-39" xMax="428" yMax="658">
+    <TTGlyph name="nine" xMin="29" yMin="-39" xMax="427" yMax="657">
       <contour>
         <pt x="323" y="621" on="0"/>
         <pt x="337" y="626" on="0"/>
@@ -13224,7 +13235,7 @@
 
     <TTGlyph name="nonmarkingreturn"/><!-- contains no outline data -->
 
-    <TTGlyph name="numbersign" xMin="31" yMin="-100" xMax="709" yMax="651">
+    <TTGlyph name="numbersign" xMin="32" yMin="-100" xMax="709" yMax="651">
       <contour>
         <pt x="512" y="516" on="1"/>
         <pt x="526" y="551" on="0"/>
@@ -13348,7 +13359,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="o" xMin="-24" yMin="-30" xMax="448" yMax="401">
+    <TTGlyph name="o" xMin="-24" yMin="-29" xMax="448" yMax="400">
       <contour>
         <pt x="435" y="150" on="1"/>
         <pt x="447" y="145" on="0"/>
@@ -13476,7 +13487,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="one" xMin="33" yMin="-126" xMax="614" yMax="645">
+    <TTGlyph name="one" xMin="34" yMin="-126" xMax="614" yMax="645">
       <contour>
         <pt x="384" y="614" on="1"/>
         <pt x="396" y="614" on="0"/>
@@ -13562,7 +13573,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="p" xMin="-149" yMin="-296" xMax="517" yMax="384">
+    <TTGlyph name="p" xMin="-149" yMin="-295" xMax="517" yMax="383">
       <contour>
         <pt x="469" y="91" on="1"/>
         <pt x="488" y="107" on="0"/>
@@ -13689,7 +13700,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="parenleft" xMin="16" yMin="-23" xMax="335" yMax="668">
+    <TTGlyph name="parenleft" xMin="16" yMin="-22" xMax="334" yMax="668">
       <contour>
         <pt x="148" y="551" on="1"/>
         <pt x="170" y="594" on="0"/>
@@ -13729,7 +13740,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="parenright" xMin="33" yMin="-2" xMax="327" yMax="726">
+    <TTGlyph name="parenright" xMin="34" yMin="-2" xMax="327" yMax="725">
       <contour>
         <pt x="162" y="601" on="1"/>
         <pt x="154" y="614" on="0"/>
@@ -13765,7 +13776,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="percent" xMin="25" yMin="-2" xMax="610" yMax="586">
+    <TTGlyph name="percent" xMin="26" yMin="-2" xMax="609" yMax="585">
       <contour>
         <pt x="530" y="581" on="1"/>
         <pt x="535" y="581" on="0"/>
@@ -13870,7 +13881,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="period" xMin="83" yMin="-2" xMax="234" yMax="129">
+    <TTGlyph name="period" xMin="83" yMin="-1" xMax="234" yMax="128">
       <contour>
         <pt x="83" y="45" on="0"/>
         <pt x="97" y="106" on="0"/>
@@ -13891,7 +13902,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="plus" xMin="33" yMin="-1" xMax="453" yMax="414">
+    <TTGlyph name="plus" xMin="34" yMin="-1" xMax="453" yMax="413">
       <contour>
         <pt x="339" y="371" on="1"/>
         <pt x="334" y="354" on="0"/>
@@ -13952,7 +13963,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="q" xMin="30" yMin="-371" xMax="584" yMax="361">
+    <TTGlyph name="q" xMin="30" yMin="-371" xMax="583" yMax="361">
       <contour>
         <pt x="540" y="120" on="1"/>
         <pt x="557" y="135" on="0"/>
@@ -14108,7 +14119,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="question" xMin="169" yMin="-101" xMax="616" yMax="702">
+    <TTGlyph name="question" xMin="170" yMin="-101" xMax="616" yMax="701">
       <contour>
         <pt x="170" y="-56" on="0"/>
         <pt x="174" y="-41" on="0"/>
@@ -14179,7 +14190,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="question.alt1" xMin="33" yMin="-13" xMax="323" yMax="650">
+    <TTGlyph name="question.alt1" xMin="33" yMin="-12" xMax="323" yMax="649">
       <contour>
         <pt x="242" y="79" on="1"/>
         <pt x="246" y="80" on="0"/>
@@ -14245,7 +14256,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="quotedbl" xMin="9" yMin="454" xMax="406" yMax="726">
+    <TTGlyph name="quotedbl" xMin="10" yMin="454" xMax="405" yMax="726">
       <contour>
         <pt x="152" y="594" on="0"/>
         <pt x="154" y="574" on="0"/>
@@ -14289,7 +14300,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="quotedbl.alt1" xMin="30" yMin="470" xMax="425" yMax="747">
+    <TTGlyph name="quotedbl.alt1" xMin="30" yMin="471" xMax="424" yMax="747">
       <contour>
         <pt x="389" y="702" on="1"/>
         <pt x="424" y="597" on="0"/>
@@ -14333,7 +14344,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="quotesingle" xMin="57" yMin="566" xMax="236" yMax="839">
+    <TTGlyph name="quotesingle" xMin="57" yMin="567" xMax="236" yMax="839">
       <contour>
         <pt x="57" y="753" on="0"/>
         <pt x="64" y="785" on="0"/>
@@ -14357,7 +14368,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="quotesingle.alt1" xMin="8" yMin="541" xMax="188" yMax="814">
+    <TTGlyph name="quotesingle.alt1" xMin="8" yMin="541" xMax="187" yMax="813">
       <contour>
         <pt x="187" y="629" on="0"/>
         <pt x="182" y="597" on="0"/>
@@ -14381,7 +14392,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="r" xMin="-16" yMin="-31" xMax="500" yMax="497">
+    <TTGlyph name="r" xMin="-15" yMin="-30" xMax="500" yMax="497">
       <contour>
         <pt x="459" y="99" on="1"/>
         <pt x="475" y="114" on="0"/>
@@ -14492,7 +14503,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="registered" xMin="30" yMin="345" xMax="479" yMax="784">
+    <TTGlyph name="registered" xMin="30" yMin="345" xMax="478" yMax="784">
       <contour>
         <pt x="478" y="592" on="1"/>
         <pt x="478" y="587" on="0"/>
@@ -14745,7 +14756,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="s" xMin="-51" yMin="-1" xMax="447" yMax="469">
+    <TTGlyph name="s" xMin="-51" yMin="0" xMax="447" yMax="468">
       <contour>
         <pt x="403" y="148" on="1"/>
         <pt x="421" y="163" on="0"/>
@@ -14866,7 +14877,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="s.alt1" xMin="-32" yMin="-3" xMax="258" yMax="469">
+    <TTGlyph name="s.alt1" xMin="-32" yMin="-2" xMax="258" yMax="468">
       <contour>
         <pt x="253" y="134" on="1"/>
         <pt x="258" y="70" on="0"/>
@@ -14943,7 +14954,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="section" xMin="32" yMin="-19" xMax="410" yMax="747">
+    <TTGlyph name="section" xMin="33" yMin="-18" xMax="409" yMax="746">
       <contour>
         <pt x="119" y="25" on="1"/>
         <pt x="77" y="38" on="0"/>
@@ -15038,7 +15049,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="semicolon" xMin="68" yMin="-136" xMax="266" yMax="459">
+    <TTGlyph name="semicolon" xMin="69" yMin="-135" xMax="265" yMax="458">
       <contour>
         <pt x="76" y="49" on="0"/>
         <pt x="83" y="106" on="0"/>
@@ -15078,7 +15089,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="seven" xMin="31" yMin="-56" xMax="674" yMax="678">
+    <TTGlyph name="seven" xMin="32" yMin="-56" xMax="673" yMax="678">
       <contour>
         <pt x="517" y="633" on="1"/>
         <pt x="554" y="640" on="0"/>
@@ -15165,7 +15176,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="six" xMin="33" yMin="-76" xMax="484" yMax="628">
+    <TTGlyph name="six" xMin="34" yMin="-75" xMax="484" yMax="628">
       <contour>
         <pt x="255" y="606" on="1"/>
         <pt x="280" y="613" on="0"/>
@@ -15250,7 +15261,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="slash" xMin="32" yMin="-248" xMax="632" yMax="791">
+    <TTGlyph name="slash" xMin="33" yMin="-248" xMax="632" yMax="791">
       <contour>
         <pt x="576" y="791" on="0"/>
         <pt x="632" y="761" on="0"/>
@@ -15306,7 +15317,7 @@
 
     <TTGlyph name="space"/><!-- contains no outline data -->
 
-    <TTGlyph name="sterling" xMin="31" yMin="-2" xMax="552" yMax="627">
+    <TTGlyph name="sterling" xMin="32" yMin="-2" xMax="551" yMax="627">
       <contour>
         <pt x="367" y="489" on="1"/>
         <pt x="305" y="411" on="0"/>
@@ -15387,7 +15398,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="t" xMin="-122" yMin="-71" xMax="441" yMax="825">
+    <TTGlyph name="t" xMin="-121" yMin="-71" xMax="441" yMax="825">
       <contour>
         <pt x="397" y="95" on="1"/>
         <pt x="416" y="107" on="0"/>
@@ -15496,7 +15507,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="three" xMin="53" yMin="-68" xMax="504" yMax="647">
+    <TTGlyph name="three" xMin="54" yMin="-68" xMax="504" yMax="647">
       <contour>
         <pt x="430" y="303" on="0"/>
         <pt x="496" y="239" on="0"/>
@@ -15586,7 +15597,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="trademark" xMin="33" yMin="383" xMax="649" yMax="745">
+    <TTGlyph name="trademark" xMin="34" yMin="383" xMax="648" yMax="744">
       <contour>
         <pt x="648" y="686" on="1"/>
         <pt x="648" y="678" on="0"/>
@@ -15734,7 +15745,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="two" xMin="10" yMin="-57" xMax="589" yMax="671">
+    <TTGlyph name="two" xMin="10" yMin="-57" xMax="588" yMax="670">
       <contour>
         <pt x="428" y="635" on="1"/>
         <pt x="461" y="650" on="0"/>
@@ -15814,7 +15825,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="u" xMin="-34" yMin="-9" xMax="580" yMax="382">
+    <TTGlyph name="u" xMin="-34" yMin="-8" xMax="579" yMax="381">
       <contour>
         <pt x="536" y="137" on="1"/>
         <pt x="553" y="151" on="0"/>
@@ -15891,7 +15902,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="unie933.liga" xMin="16" yMin="-1" xMax="580" yMax="841">
+    <TTGlyph name="unie933.liga" xMin="17" yMin="0" xMax="579" yMax="841">
       <contour>
         <pt x="548" y="135" on="1"/>
         <pt x="559" y="130" on="0"/>
@@ -16092,7 +16103,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="v" xMin="30" yMin="-3" xMax="623" yMax="460">
+    <TTGlyph name="v" xMin="31" yMin="-2" xMax="623" yMax="460">
       <contour>
         <pt x="516" y="139" on="1"/>
         <pt x="488" y="144" on="0"/>
@@ -16161,7 +16172,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="w" xMin="31" yMin="-2" xMax="763" yMax="326">
+    <TTGlyph name="w" xMin="31" yMin="-1" xMax="763" yMax="326">
       <contour>
         <pt x="720" y="147" on="1"/>
         <pt x="737" y="161" on="0"/>
@@ -16259,7 +16270,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="x" xMin="2" yMin="-126" xMax="768" yMax="390">
+    <TTGlyph name="x" xMin="2" yMin="-126" xMax="768" yMax="389">
       <contour>
         <pt x="724" y="135" on="1"/>
         <pt x="742" y="149" on="0"/>
@@ -16362,7 +16373,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="x.alt1" xMin="33" yMin="-126" xMax="660" yMax="390">
+    <TTGlyph name="x.alt1" xMin="34" yMin="-126" xMax="659" yMax="389">
       <contour>
         <pt x="616" y="135" on="1"/>
         <pt x="633" y="149" on="0"/>
@@ -16463,7 +16474,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="y" xMin="-17" yMin="-265" xMax="499" yMax="454">
+    <TTGlyph name="y" xMin="-17" yMin="-265" xMax="498" yMax="454">
       <contour>
         <pt x="455" y="120" on="1"/>
         <pt x="472" y="135" on="0"/>
@@ -16565,7 +16576,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="z" xMin="1" yMin="-330" xMax="633" yMax="489">
+    <TTGlyph name="z" xMin="1" yMin="-329" xMax="633" yMax="489">
       <contour>
         <pt x="590" y="120" on="1"/>
         <pt x="607" y="135" on="0"/>
@@ -16676,7 +16687,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="z.alt1" xMin="31" yMin="-330" xMax="619" yMax="489">
+    <TTGlyph name="z.alt1" xMin="31" yMin="-329" xMax="618" yMax="489">
       <contour>
         <pt x="575" y="120" on="1"/>
         <pt x="592" y="135" on="0"/>
@@ -16786,7 +16797,7 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="zero" xMin="29" yMin="-56" xMax="407" yMax="657">
+    <TTGlyph name="zero" xMin="30" yMin="-55" xMax="407" yMax="657">
       <contour>
         <pt x="210" y="588" on="1"/>
         <pt x="215" y="601" on="0"/>
@@ -16996,7 +17007,7 @@
   </post>
 
   <gasp>
-    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="2"/>
+    <gaspRange rangeMaxPPEM="65535" rangeGaspBehavior="15"/>
   </gasp>
 
   <GDEF>
@@ -17129,7 +17140,7 @@
       <ClassDef glyph="zero" class="1"/>
     </GlyphClassDef>
     <LigCaretList>
-      <Coverage Format="2">
+      <Coverage Format="1">
       </Coverage>
       <!-- LigGlyphCount=0 -->
     </LigCaretList>
