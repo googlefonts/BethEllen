@@ -1,0 +1,7 @@
+buildVariable: false
+removeOutlineOverlaps: false
+productionNames: false
+reverseOutlineDirection: false
+autohintTTF: false
+sources:
+  - BethEllen-Regular.glyphs
